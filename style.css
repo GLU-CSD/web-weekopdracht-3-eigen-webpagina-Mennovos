@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    font-size: 100%;
 }
 text{
     font-size: 90px;
@@ -9,6 +10,8 @@ text{
 }
 .grid-container {
     display: grid;
+    width: 90%;
+    max-width: 960px;
     grid-template-columns: auto auto auto;
     grid-template-rows: 600px 200px;
     gap: 10px;

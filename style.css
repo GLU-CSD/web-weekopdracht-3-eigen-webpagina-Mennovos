@@ -8,6 +8,11 @@ text{
     color: green;
     text-align: right;
 }
+.hidden{
+  font-size: 90px;
+  color: green;
+  text-align: right;
+}
 .grid-container {
     display: grid;
     width: 100%;

@@ -9,9 +9,9 @@ text{
     text-align: right;
 }
 .hidden{
-  font-size: 160px;
-  color: green;
-  text-align: right;
+  font-size: 100px;
+  color: transparent;
+  margin-bottom: 40px;
 }
 .grid-container {
     display: grid;
@@ -35,7 +35,7 @@ text{
     text-align: center;
     text-decoration: none;
     display: flex;
-    font-size: 60px;
+    font-size: 120px;
     margin: 40px 2px;
     transition-duration: 0.4s;
     cursor: pointer;

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <!-- <script src="CDN library url"></script> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.js">
   <script defer src="main.js"></script>
 </head>
 <style>
@@ -20,8 +21,11 @@
   }
   
   @media only screen and (max-width: 600px) {
-    text {
-      color: red;
+    .hidden {
+      color: black;
+    }
+    text{
+      color: transparent;
     }
   }
 </style>
@@ -30,10 +34,6 @@
 <body>
   <div class="grid-container">
     <div>
-      <button onclick = "fun()"> click me !</button> 
-      <p> 
-         <div id = "result"> </div> 
-      </p> 
       <button class="button button1">Players</button>
       <button class="button button1">Teams</button>
       <button class="button button1">Scores</button>
@@ -47,12 +47,11 @@
     <text>
       <h1 class="animate__animated animate__bounceInDown">Competition</h1>
     </text>
-    <div>
-      <div class="hidden"></div>
-      <h1 hidden="animate__animated animate__bounceInDown">Competition1</h1>
-    </div>
+    <div>3</div>
   </div>
-  <div>4</div>
+  <div><div class="hidden">
+    <h1 class="animate__animated animate__bounceInDown">Competition</h1>
+  </div></div>
   <div>5</div>
   <div>6</div>
   <div>7</div>
